@@ -1,5 +1,11 @@
 # Array-Sum
-Repository contains the code for calculating the sum of an Array using parallel programming. The elements of the Array are randomly generated and the sum is calculated using both the linear as well as the parallel methods. The results are then compared for correctness and analysed to measure the speed up.
+Repository contains the code for calculating the sum of an Array using parallel programming. The elements of the Array are randomly generated and the sum is calculated using both the linear as well as the parallel methods. The results are then compared for correctness and analysed to measure the speed up. <br />
+
+Commands for execution
+```
+g++ ArraySum.cpp -std=c++11 -pthread
+./a.out
+```
 
 ## Approach
 The sum of the array with randomly generated elements from within a range is calculated using two methods:

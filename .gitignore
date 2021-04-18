@@ -5,3 +5,6 @@
 # Executables
 *.exe
 *.out
+
+# Cached files
+Analysis/.ipynb_checkpoints/
