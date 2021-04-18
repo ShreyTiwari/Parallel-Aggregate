@@ -1,6 +1,12 @@
-/*
-*
-*/
+/**
+ * @file ArraySum.cpp
+ *
+ * @brief This file implements two approaches to calculating the Sum of an Array.
+ *
+ * @author Shrey Tiwari
+ * Contact: shreymt@gmail.com
+ *
+ */
 
 // Importing the required header files
 #include <iostream>
