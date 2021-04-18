@@ -28,3 +28,4 @@ The data as well as the analysis performed on the data can be found in the 'Anal
 
 ## Useful Links:
 - Array sum (C++): https://www.tutorialspoint.com/array-sum-in-cplusplus-stl
+- Multithreading in C++: https://www.educative.io/blog/modern-multithreading-and-concurrency-in-cpp
