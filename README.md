@@ -35,3 +35,5 @@ The data as well as the analysis performed on the data can be found in the 'Anal
 ## Useful Links:
 - Array sum (C++): https://www.tutorialspoint.com/array-sum-in-cplusplus-stl
 - Multithreading in C++: https://www.educative.io/blog/modern-multithreading-and-concurrency-in-cpp
+- Speedup and Efficiency: https://www.lynda.com/Python-tutorials/Measure-speedup/2814041/2925371-4.html
+- Amdahl's law: https://en.wikipedia.org/wiki/Amdahl%27s_law
