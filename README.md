@@ -1,19 +1,19 @@
-# Array-Sum
-Repository contains the code for calculating the sum of an Array using parallel programming. The elements of the Array are randomly generated and the sum is calculated using both the linear as well as the parallel methods. The results are then compared for correctness and analysed to measure the speed up. <br />
+# Parallel Aggregate
+Repository contains the code for calculating aggregates in an Array using parallel programming. The elements of the Array are randomly generated and the sum is calculated using both the linear as well as the parallel methods. The results are then compared for correctness and analysed to measure the speed up. <br />
 
 Commands for execution
 ```
-g++ ArraySum.cpp -std=c++11 -pthread
+g++ <filename>.cpp -std=c++11 -pthread
 ./a.out
 ```
 
 ## Approach
 The sum of the array with randomly generated elements from within a range is calculated using two methods:
 
-- Standard Linear Tranversal Sum:
+- Standard Linear Tranversal Aggregate:
   - Time Complexity = O(N)
   - Space Complexity = O(1)
-- Parallel Multiple Linear Traversal Sum:
+- Parallel Multiple Linear Traversal Aggregate:
   - Time Complexity = O(N/K) + O(K)
   - Space Complexity = O(K)
   - Where 'K' is the factor of parallelization (here the number of CPU cores on the machine)
